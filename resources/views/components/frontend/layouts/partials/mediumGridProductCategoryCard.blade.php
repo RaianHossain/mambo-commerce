@@ -5,7 +5,7 @@
         'delay': '.3s'
     }" style="background-color: #f5f5f5">
         <figure>
-            <img src="images/demos/demo4/categories/5.jpg" alt="category" width="580"
+            <img src="{{ asset('ui/frontend/images/demos/demo4/categories/5.jpg') }}" alt="category" width="580"
                 height="245" />
         </figure>
         <div class="banner-content text-right y-50">

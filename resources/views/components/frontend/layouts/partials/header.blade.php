@@ -40,10 +40,12 @@
                         <a href="#" class="mobile-menu-toggle mr-0">
                             <i class="d-icon-bars2"></i>
                         </a>
-                        <a href="demo4.html" class="logo d-lg-show">
-                            <img src="images/demos/demo4/logo.png" alt="logo" width="154" height="43" />
+                        <a href="{{ url('/home') }}" class="logo d-lg-show">
+                            <img src="{{ asset('ui/frontend/images/demos/demo4/logo.png') }}" alt="logo" width="154" height="43" />
                         </a>
                         <!-- End Logo -->
+
+                        {{ $searchBarFromMaster ?? '' }}
 
                         <nav class="main-nav mr-4">
                             <ul class="menu justify-content-center">

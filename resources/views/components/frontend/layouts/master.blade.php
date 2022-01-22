@@ -53,7 +53,11 @@
 
     <div class="page-wrapper">
         <h1 class="d-none">Riode - Responsive eCommerce HTML Template</h1>
-        <x-frontend.layouts.partials.header></x-frontend.layouts.partials.header>
+        <x-frontend.layouts.partials.header>
+            <x-slot name="searchBarFromMaster">
+                {{ $searchBar ?? '' }}
+            </x-slot>
+        </x-frontend.layouts.partials.header>
         <!-- End of Header -->
         {{ $slot }}
         <!-- End of Main -->
